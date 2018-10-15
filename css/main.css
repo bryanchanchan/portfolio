@@ -1,0 +1,46 @@
+html {
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  position: relative;
+  opacity: 1;
+}
+
+.img1 p,
+.img2 p,
+.img3 p,
+.img4 p {
+  display: none;
+  position: absolute;
+  bottom: 5em;
+  left: 5em;
+}
+
+.img1:hover p {
+  display: inline-block;
+}
+
+.img2:hover p {
+  display: inline-block;
+}
+
+.img3:hover p {
+  display: inline-block;
+}
+
+.img4:hover p {
+  display: inline-block;
+}
+
+.img1:hover img,
+.img2:hover img,
+.img3:hover img,
+.img4:hover img {
+  opacity: .5;
+}
