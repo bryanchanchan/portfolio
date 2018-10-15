@@ -44,3 +44,7 @@ html {
 .img4:hover img {
   opacity: .5;
 }
+
+footer {
+  background-color: #c4c4c4;
+}
