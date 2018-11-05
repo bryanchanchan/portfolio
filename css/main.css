@@ -48,3 +48,49 @@ html {
 footer {
   background-color: #c4c4c4;
 }
+
+a {
+  color: black;
+}
+
+
+@media only screen and (min-width: 20em) {
+
+  .hide-1 div:first-child {
+    display: inline-block;
+  }
+
+  .hide-1 p {
+    display: none;
+  }
+
+  .hide-2 p {
+    display: inline-block;
+  }
+
+  .hide-2 div:first-child {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (min-width: 36em) {
+
+  .hide-1 div:first-child {
+    display: none;
+  }
+
+  .hide-1 p {
+    display: inline-block;
+  }
+
+  .hide-2 p {
+    display: none;
+  }
+
+  .hide-2 div:first-child {
+    display: inline-block;
+  }
+
+}
