@@ -53,7 +53,32 @@ a {
   color: black;
 }
 
+.hero-banner {
+  background-image: url("../images/blackboard_06.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
 
+.hero-banner-branding {
+  background-image: url("../images/banner_branding.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.hero-banner-campaign {
+  background-image: url("../images/banner_campaign.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
 @media only screen and (min-width: 20em) {
 
   .hide-1 div:first-child {
@@ -72,8 +97,13 @@ a {
     display: none;
   }
 
-
+  .hero-banner {
+    height: 300px;
 }
+
+  .hero-banner-branding {
+    height: 300px;
+  }
 
 @media only screen and (min-width: 36em) {
 
@@ -93,4 +123,22 @@ a {
     display: inline-block;
   }
 
+  .hero-banner {
+    height: 500px;
+  }
+
+  .hero-banner {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .hero-banner {
+    height: 600px;
+  }
+
+  .hero-banner-branding {
+    height: 600px;
+  }
 }
