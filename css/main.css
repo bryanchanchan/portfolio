@@ -89,6 +89,15 @@ a {
   color: white;
 }
 
+.hero-banner-posters {
+  background-image: url("../images/banner_posters.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
 @media only screen and (min-width: 20em) {
 
   .hide-1 div:first-child {
@@ -119,6 +128,11 @@ a {
     height: 300px;
   }
 
+  .hero-banner-posters {
+    height: 300px;
+  }
+}
+
 @media only screen and (min-width: 36em) {
 
   .hide-1 div:first-child {
@@ -148,6 +162,10 @@ a {
   .hero-banner-illustrations {
     height: 500px;
   }
+
+  .hero-banner-posters {
+    height: 500px;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -161,6 +179,10 @@ a {
   }
 
   .hero-banner-illustrations {
+    height: 600px;
+  }
+
+  .hero-banner-posters {
     height: 600px;
   }
 }
