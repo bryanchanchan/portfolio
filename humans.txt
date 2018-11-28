@@ -1,0 +1,10 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Bryan Chan <chanchandesign0629@fastemail.com>
+Site: http://chanchan-design.com
+Github: https://github.com/bryanchanchan
+Location: Ottawa, Canada
+
+---

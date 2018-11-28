@@ -1,0 +1,6 @@
+# www.robotstxt.org
+
+Sitemap: http://chanchan-design.com/sitemap.xml
+
+User-Agent: *
+Disallow:
