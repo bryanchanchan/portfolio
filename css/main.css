@@ -109,6 +109,19 @@ a {
   height: 100%;
 }
 
+.error-banner {
+  color: white;
+}
+
+.error-banner .btn {
+  border-color: white;
+  color: white;
+}
+
+.error-banner .btn:hover {
+  color: #000;
+}
+
 @media only screen and (min-width: 20em) {
 
   .hide-1 div:first-child {
